@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.newbaby.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/elephants" />
+
+    <TextView
+        android:id="@+id/cong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:fontFamily="cursive"
+        android:text="Congratulations,"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/mom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cong"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="cursive"
+        android:text="You're going to be a Wonderful MOM!"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:fontFamily="cursive"
+        android:text="Love, Jayna"
+        android:textColor="#4753E6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
